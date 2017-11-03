@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abaut" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="activate" xml:space="preserve">
+    <value>Активувати</value>
+  </data>
+  <data name="addChek" xml:space="preserve">
+    <value>Додавати</value>
+  </data>
+  <data name="animals" xml:space="preserve">
+    <value>Тварини</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="augerWagons" xml:space="preserve">
+    <value>Причіп з гвинт. конвеєром</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="baling" xml:space="preserve">
+    <value>Техніка для тюковки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="beetHarvesting" xml:space="preserve">
+    <value>Збирання буряка</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="brend" xml:space="preserve">
+    <value>Бренд</value>
+  </data>
+  <data name="buttonBrowse" xml:space="preserve">
+    <value>Огляд</value>
+  </data>
+  <data name="buttonDeleteAll" xml:space="preserve">
+    <value>Видалити все</value>
+  </data>
+  <data name="buttonInstalAll" xml:space="preserve">
+    <value>Встановити все</value>
+  </data>
+  <data name="buy" xml:space="preserve">
+    <value>Купується</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="cars" xml:space="preserve">
+    <value>Автомобілі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Категорія</value>
+  </data>
+  <data name="chainsaws" xml:space="preserve">
+    <value>Бензопили</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="changeFolderLabelTitle" xml:space="preserve">
+    <value>Змінити папку для модифікацій:</value>
+  </data>
+  <data name="cultivators" xml:space="preserve">
+    <value>Культиватори</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="currentDirLabel" xml:space="preserve">
+    <value>Поточна:</value>
+  </data>
+  <data name="cutters" xml:space="preserve">
+    <value>Жатки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="cutterTrailers" xml:space="preserve">
+    <value>Причепи для жаток</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="dailyUpkeep" xml:space="preserve">
+    <value>Щоденна експлуатація</value>
+  </data>
+  <data name="deactivate" xml:space="preserve">
+    <value>Деактивувати</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="dirDalogTitleInstallMods" xml:space="preserve">
+    <value>Вкажіть папку, яка містить модифікації для установки</value>
+  </data>
+  <data name="dirDalogTitleNewFolderForMod" xml:space="preserve">
+    <value>Виберіть нову папку для модифікацій</value>
+  </data>
+  <data name="dollys" xml:space="preserve">
+    <value>Підкатні візки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="dropPanelText" xml:space="preserve">
+    <value>Використовуючи мишку, перемістіть сюди архів (zip), або папку, яка містить модифікацію</value>
+  </data>
+  <data name="errorFindFileSetting" xml:space="preserve">
+    <value>Не вдалося знайти файл конфігурації  Farming Simulator 2017 по шляху:</value>
+  </data>
+  <data name="feeding" xml:space="preserve">
+    <value>Техніка для год. тварин</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="fertilizerSpreaders" xml:space="preserve">
+    <value>Розкидачі добрив</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="frontLoaders" xml:space="preserve">
+    <value>Фронтальні навантажувачі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="harvesters" xml:space="preserve">
+    <value>Комбайни</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="instalButton" xml:space="preserve">
+    <value>Встановленні</value>
+  </data>
+  <data name="install" xml:space="preserve">
+    <value>Встановити</value>
+  </data>
+  <data name="installationComplete" xml:space="preserve">
+    <value>Встановлення завершено!</value>
+  </data>
+  <data name="labelActiveMods" xml:space="preserve">
+    <value>Активні моди:</value>
+  </data>
+  <data name="labelAllMods" xml:space="preserve">
+    <value>Всі моди:</value>
+  </data>
+  <data name="labelDeactiveMods" xml:space="preserve">
+    <value>Неактивні моди:</value>
+  </data>
+  <data name="loaderWagons" xml:space="preserve">
+    <value>Вантажні причепи</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="mainWindowTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="manureSpreaders" xml:space="preserve">
+    <value>Розкидувачі гною</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="messageDeleteMessage" xml:space="preserve">
+    <value>Видалити модифікацію:</value>
+  </data>
+  <data name="messageDeleteTitle" xml:space="preserve">
+    <value>Видалення</value>
+  </data>
+  <data name="misc" xml:space="preserve">
+    <value>Різне</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="mods" xml:space="preserve">
+    <value>Модів:</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>Детальніше</value>
+  </data>
+  <data name="mowers" xml:space="preserve">
+    <value>Сінокосарки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="multiplayer" xml:space="preserve">
+    <value>Мультиплеєр</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="noSupport" xml:space="preserve">
+    <value>Не підтримується</value>
+  </data>
+  <data name="orBrowseFoldetLabel" xml:space="preserve">
+    <value>Чи виберіть папку з модифікаціями</value>
+  </data>
+  <data name="placeables" xml:space="preserve">
+    <value>Статичні обєкти</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="plows" xml:space="preserve">
+    <value>Плуги</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="potatoHarvesting" xml:space="preserve">
+    <value>Збирання картоплі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Ціна</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="settingButton" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="setupButton" xml:space="preserve">
+    <value>Встановлення</value>
+  </data>
+  <data name="slurryTanks" xml:space="preserve">
+    <value>Цистерни для гноївки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="sortLabel" xml:space="preserve">
+    <value>Всі встановлені модифікації</value>
+  </data>
+  <data name="sortLabelAllInstallation" xml:space="preserve">
+    <value>Всі встановлені модифікації</value>
+  </data>
+  <data name="sortLabelByCategory" xml:space="preserve">
+    <value>Модифікації за категоріями</value>
+  </data>
+  <data name="sowingMachines" xml:space="preserve">
+    <value>Сівалки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="sprayers" xml:space="preserve">
+    <value>Обприскувачі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="support" xml:space="preserve">
+    <value>Підтримується</value>
+  </data>
+  <data name="tedders" xml:space="preserve">
+    <value>Сіноворушилки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="teleLoaders" xml:space="preserve">
+    <value>Телескопічний навантажувачі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="tippers" xml:space="preserve">
+    <value>Причепи самоскиди</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="titleLabelInInstallatios" xml:space="preserve">
+    <value>Установка модифікацій</value>
+  </data>
+  <data name="tractors" xml:space="preserve">
+    <value>Трактори</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="trucks" xml:space="preserve">
+    <value>Вантажівки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Версія:</value>
+  </data>
+  <data name="weights" xml:space="preserve">
+    <value>Противаги</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="wheelLoaders" xml:space="preserve">
+    <value>Колісні навантажувачі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="windrowers" xml:space="preserve">
+    <value>Валкові жатки</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="wood" xml:space="preserve">
+    <value>Облад.  для лісозаготів.</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="сhooseFile" xml:space="preserve">
+    <value>Виберіть файл</value>
+  </data>
+  <data name="noCategory" xml:space="preserve">
+    <value>Без категорії</value>
+  </data>
+  <data name="settingProgram" xml:space="preserve">
+    <value>Налаштування гри</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="skrollin" xml:space="preserve">
+    <value>Скролінг</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Горизонтально</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Вертикально</value>
+  </data>
+  <data name="aboutTheProgram" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="aboutProgramText" xml:space="preserve">
+    <value>Благодарность за польский(Polski) перевод - Dominik Figiel (castro92)</value>
+  </data>
+  <data name="copyright" xml:space="preserve">
+    <value>Авторські права</value>
+  </data>
+  <data name="errorChanseCategory" xml:space="preserve">
+    <value>Категорії для зміни не знайдено!
+Додати нову?</value>
+  </data>
+  <data name="feedback" xml:space="preserve">
+    <value>Зворотний зв'язок</value>
+  </data>
+  <data name="site" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="showMods" xml:space="preserve">
+    <value>Показувати моди</value>
+  </data>
+  <data name="errorChanseDeily" xml:space="preserve">
+    <value>Вартість щоденного обслуговування не встановлено!
+Додати нову?</value>
+  </data>
+  <data name="errorChansePrise" xml:space="preserve">
+    <value>Вартість техніки не встановлено!
+Додати нову?</value>
+  </data>
+  <data name="configurationFileTitle" xml:space="preserve">
+    <value>Файл налаштувань гри:</value>
+  </data>
+  <data name="replace" xml:space="preserve">
+    <value>Замінювати</value>
+  </data>
+  <data name="settingLocations" xml:space="preserve">
+    <value>Налаштування розташувань</value>
+  </data>
+  <data name="pathInstalled" xml:space="preserve">
+    <value>Шлях до встановленої Farming Simulator:</value>
+  </data>
+  <data name="purpose" xml:space="preserve">
+    <value>Призначення</value>
+  </data>
+  <data name="alreadyExistsLang" xml:space="preserve">
+    <value>Тег /name вже існує!</value>
+  </data>
+  <data name="modlreadyInstalled" xml:space="preserve">
+    <value>Можливо цей мод вже встановлений</value>
+  </data>
+  <data name="compression" xml:space="preserve">
+    <value>Стискання</value>
+  </data>
+  <data name="compressionBestCompression" xml:space="preserve">
+    <value>Краще стиснення</value>
+  </data>
+  <data name="compressionBestSpeed" xml:space="preserve">
+    <value>Краща швидкість</value>
+  </data>
+  <data name="compressionDefault" xml:space="preserve">
+    <value>Стандартне значення</value>
+  </data>
+  <data name="fileCopy" xml:space="preserve">
+    <value>Копіювання файлів</value>
+  </data>
+  <data name="installation" xml:space="preserve">
+    <value>Встановлення</value>
+  </data>
+  <data name="installed" xml:space="preserve">
+    <value>Встановлено</value>
+  </data>
+  <data name="messageFileFound" xml:space="preserve">
+    <value>Файл "/fileName" вже існує. Натисніть "ОК" для пропуску, або "Відміна" для переривання встановлення.</value>
+  </data>
+  <data name="packingInZip" xml:space="preserve">
+    <value>Упаковка в Zip</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="fullMode" xml:space="preserve">
+    <value>Розширений режим</value>
+  </data>
+  <data name="installationСanceled" xml:space="preserve">
+    <value>Установка скасована!</value>
+  </data>
+  <data name="liteMode" xml:space="preserve">
+    <value>Спрощений режим</value>
+  </data>
+  <data name="showCode" xml:space="preserve">
+    <value>Показати код</value>
+  </data>
+  <data name="missing" xml:space="preserve">
+    <value>Пропущено</value>
+  </data>
+  <data name="сancelled" xml:space="preserve">
+    <value>Скасовано</value>
+  </data>
+  <data name="_CAPACITY" xml:space="preserve">
+    <value>Ємкість (л)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FILLLITERSPERSECOND" xml:space="preserve">
+    <value>Завантаження (л/с)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FUELCAPACITY" xml:space="preserve">
+    <value>Об'єм паливного бака (л)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FUELUSAGE" xml:space="preserve">
+    <value>Використання палива (л/г)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_OVERLOADINGCAPACITY" xml:space="preserve">
+    <value>Вивантаження (л/с)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_USEDIRECTPLANTING" xml:space="preserve">
+    <value>Нульовий посів</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_BRAKEFORCE" xml:space="preserve">
+    <value>Сила гальмування</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_MOTORBRAKEFORCE" xml:space="preserve">
+    <value>Сила гальмування</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_PTORPM" xml:space="preserve">
+    <value>Оберти</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SPEEDLIMIT" xml:space="preserve">
+    <value>Обмеження швидкості (км/г)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SPOWERCONSUMER" xml:space="preserve">
+    <value>Необхідна потужність (кВт)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SPRAYUSAGE" xml:space="preserve">
+    <value>Витрата (л/с)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="EDITMORE" xml:space="preserve">
+    <value>Редагувати інші дані</value>
+    <comment>!</comment>
+  </data>
+  <data name="HIDE" xml:space="preserve">
+    <value>Сховати</value>
+    <comment>!</comment>
+  </data>
+  <data name="NOT_FOUND_THE_SUPPORTED_ELEMENTS" xml:space="preserve">
+    <value>Не знайдено підтримуваних програмою елементів для редагування</value>
+    <comment>!</comment>
+  </data>
+  <data name="add_picture" xml:space="preserve">
+    <value>Додати зображення</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="all_images" xml:space="preserve">
+    <value>Всі зображення</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="do_not_use_high_resolution_images" xml:space="preserve">
+    <value>Не використовуйте зображення високого розширення!</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="game_folder" xml:space="preserve">
+    <value>Папка з грою</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="incorrect_installation_directory" xml:space="preserve">
+    <value>Вказано невірний каталог встановлення "Farming Simulator 2017"!</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Завантаження...</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="not_specified_installation_directory" xml:space="preserve">
+    <value>Не вказаний каталог встановлення "Farming Simulator 2017"!</value>
+    <comment>_EL,</comment>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Зберегти</value>
+    <comment>_EI,</comment>
+  </data>
+  <data name="unarchive" xml:space="preserve">
+    <value>Розархівувати</value>
+    <comment>_MS,</comment>
+  </data>
+  <data name="extractZip" xml:space="preserve">
+    <value>Видобування архіву</value>
+    <comment>main,</comment>
+  </data>
+  <data name="fileSize" xml:space="preserve">
+    <value>Розмір файла</value>
+    <comment>MoreW</comment>
+  </data>
+  <data name="show_in_folder" xml:space="preserve">
+    <value>Показати в папці</value>
+    <comment>MoreW</comment>
+  </data>
+  <data name="not_Acrhive" xml:space="preserve">
+    <value>Не архівувати</value>
+    <comment>main</comment>
+  </data>
+  <data name="km_h" xml:space="preserve">
+    <value>км/г</value>
+    <comment>moreTag</comment>
+  </data>
+  <data name="backward_gear_Ratio" xml:space="preserve">
+    <value>Передаточне число, рух назад</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="forward_gear_Ratio" xml:space="preserve">
+    <value>Передаточне число, рух вперед</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="gear_Ratio" xml:space="preserve">
+    <value>Передаточне число</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="hp" xml:space="preserve">
+    <value>к.с.</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="kw" xml:space="preserve">
+    <value>кВт</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="max" xml:space="preserve">
+    <value>Макс.</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="max_Available" xml:space="preserve">
+    <value>Maкс. доступна</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="max_Rear_Speed" xml:space="preserve">
+    <value>Макс. задня швидкість</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>Мін.</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="power" xml:space="preserve">
+    <value>Потужність</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="power_and_Speed" xml:space="preserve">
+    <value>Потужність і швидкість</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="speed" xml:space="preserve">
+    <value>Швидкість</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="transmission" xml:space="preserve">
+    <value>Коробка передач</value>
+    <comment>getSetMore</comment>
+  </data>
+  <data name="turnRPM" xml:space="preserve">
+    <value>Оберти</value>
+    <comment>getSetMore </comment>
+  </data>
+  <data name="mb" xml:space="preserve">
+    <value>Мб</value>
+    <comment>moreW</comment>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Редагувати</value>
+    <comment>moreW</comment>
+  </data>
+  <data name="belts" xml:space="preserve">
+    <value>Ремінна система</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="forageHarvesterCutters" xml:space="preserve">
+    <value>Жатки кормозбир. комбайнів</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="forageHarvesters" xml:space="preserve">
+    <value>Кормозбиральні комбайни</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="leveler" xml:space="preserve">
+    <value>Зрівнювач</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="lowloaders" xml:space="preserve">
+    <value>Низькорамники</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="pallets" xml:space="preserve">
+    <value>Піддони</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="skidSteers" xml:space="preserve">
+    <value>Мінінавантажувачі</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="weeders" xml:space="preserve">
+    <value>Полольники</value>
+    <comment>categorylist</comment>
+  </data>
+  <data name="priority_languages" xml:space="preserve">
+    <value>Приорітет мов</value>
+    <comment>setting</comment>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Значення</value>
+    <comment>UET</comment>
+  </data>
+  <data name="shop" xml:space="preserve">
+    <value>Магазин</value>
+    <comment>UET</comment>
+  </data>
+  <data name="checkTheVersion" xml:space="preserve">
+    <value>Перевіряти версію</value>
+  </data>
+  <data name="current" xml:space="preserve">
+    <value>Поточний</value>
+    <comment>load</comment>
+  </data>
+  <data name="files" xml:space="preserve">
+    <value>Файлів</value>
+    <comment>load</comment>
+  </data>
+  <data name="message_linked_another_engine" xml:space="preserve">
+    <value>Ви хочете розірвати звязок атрибута з іншим двигуном?</value>
+    <comment>message</comment>
+  </data>
+  <data name="message_Title_linked_another_engine" xml:space="preserve">
+    <value>Значення цього атрибуту прив'язано до іншого двигуна.</value>
+    <comment>message</comment>
+  </data>
+  <data name="Message_Mod_already_exists" xml:space="preserve">
+    <value>Мод {0} вже існує, версія {1}. Натисніть "ОК" щоб продовжити встановлення, або "Відміна" для пропуску.</value>
+    <comment>message</comment>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="message_file_or_folder_already_exists" xml:space="preserve">
+    <value>Файл або  папка "{0}" вже існує. Замінити?</value>
+    <comment>message</comment>
+  </data>
+  <data name="_ADJUSTING_CROP_CAPASITY" xml:space="preserve">
+    <value>Налаштування культур і місткості</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_BRAKE_COMPRESSOR" xml:space="preserve">
+    <value>Гальмівний компресор</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_COLOR_CONFIGURATIONS" xml:space="preserve">
+    <value>Конфігурації кольорів</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_CONFIGURATION" xml:space="preserve">
+    <value>Конфігурація</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_CONFIGURATOR_TRUCK" xml:space="preserve">
+    <value>Конфігуратор зчіпки навантажувача</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_DESING" xml:space="preserve">
+    <value>Дизайн</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_DESING_CONFIGURATIONS" xml:space="preserve">
+    <value>Конфігурації дизайну</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FILLTYPECATEGORIES" xml:space="preserve">
+    <value>Категорії культур</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FILLTYPES" xml:space="preserve">
+    <value>Тип культур</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_FILL_SPEED" xml:space="preserve">
+    <value>Швидкість заповнення</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_INFO_TEXT" xml:space="preserve">
+    <value>Можливо в наступних оновленнях ;)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_MOTORCONFIGURATIONS" xml:space="preserve">
+    <value>Конфігуратор двигунів (reserved)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_NOT_SUPPORTED_CONFIGURATOR_ENGINE" xml:space="preserve">
+    <value>Не підтримуваний (застарілий) конфигуратор двигунів</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SEEDTYPES" xml:space="preserve">
+    <value>Типи насіння</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SETTING_FUNCTIONS_storeData" xml:space="preserve">
+    <value>Налаштування функцій (Store Data)</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SPEED" xml:space="preserve">
+    <value>Швидкість</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_SPEED_AUTO_RETURN" xml:space="preserve">
+    <value>Швидкість авто повернення</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_STANDART_MOUNT" xml:space="preserve">
+    <value>Стандартне кріплення</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_STORAGE_TANK" xml:space="preserve">
+    <value>Резервуар</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_TECHNICAL_REGUIREMENTS" xml:space="preserve">
+    <value>Технічні вимоги</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_USE_DEFAULT_COLORS" xml:space="preserve">
+    <value>Використовувати кольори за замовчуванням</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_VALUE" xml:space="preserve">
+    <value>Значення</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_WHEELS" xml:space="preserve">
+    <value>Колеса</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_WHEEL_CONFIGURATIONS" xml:space="preserve">
+    <value>Конфігурації коліс</value>
+    <comment>tag</comment>
+  </data>
+  <data name="first_not_active_mod" xml:space="preserve">
+    <value>Спочатку не активні моди</value>
+    <comment>settings</comment>
+  </data>
+  <data name="_OVERLOADING" xml:space="preserve">
+    <value>Перевантаження</value>
+    <comment>tag</comment>
+  </data>
+  <data name="_RIM_COLOR_CONFIGURATIONS" xml:space="preserve">
+    <value>Конфігурації кольору обода коліс</value>
+    <comment>tag</comment>
+  </data>
+  <data name="gratitude" xml:space="preserve">
+    <value>Вдячність</value>
+    <comment>about</comment>
+  </data>
+  <data name="tooiTip_BedXml" xml:space="preserve">
+    <value>В документі присутні помилки, які будуть автоматично виправленні після збереження.</value>
+    <comment>ToolTip</comment>
+  </data>
+  <data name="toolTip_BedEncoding" xml:space="preserve">
+    <value>Кодування документу не UTF-8. Буде автоматично виправлено після збереження.</value>
+    <comment>ToolTip</comment>
+  </data>
+</root>
