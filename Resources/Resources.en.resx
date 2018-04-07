@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-
+ 
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -261,7 +261,7 @@
     <value>Settings</value>
   </data>
   <data name="setupButton" xml:space="preserve">
-    <value>Installation Method</value>
+    <value>Installation</value>
   </data>
   <data name="slurryTanks" xml:space="preserve">
     <value>Slurry tanks</value>
@@ -420,7 +420,7 @@ Add new?</value>
     <value>File copy</value>
   </data>
   <data name="installation" xml:space="preserve">
-    <value>Installation</value>
+    <value>Installation Method</value>
   </data>
   <data name="installed" xml:space="preserve">
     <value>Installed</value>
@@ -815,7 +815,7 @@ Add new?</value>
     <comment>tag</comment>
   </data>
   <data name="gratitude" xml:space="preserve">
-    <value>Creedits</value>
+    <value>Credits</value>
     <comment>About</comment>
   </data>
   <data name="tooiTip_BedXml" xml:space="preserve">
